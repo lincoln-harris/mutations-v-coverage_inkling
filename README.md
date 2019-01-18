@@ -16,7 +16,7 @@ of mutations and expression/coverage, something good will come of it.
 4. normalize expression/coverage across all samples, for GOI  	    
       (FPKM?)    				
 5.  plot number mutations v. normalized expression   				
-      grab mutation info from makeGeneCounts_parallel.py output     				
-	    (s3://darmanis-group/singlecell_lungadeno/non_immune/analysis/geneCellMutationCounts.csv)       				
+      grab mutation info from `makeGeneCounts_parallel.py` output     				
+	    (*s3://darmanis-group/singlecell_lungadeno/non_immune/analysis/geneCellMutationCounts.csv*)       				
 
 			

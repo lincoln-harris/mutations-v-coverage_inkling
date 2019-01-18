@@ -133,18 +133,21 @@ of mutations and expression/coverage, something good will come of it.</p>
 <div id="method" class="section level4">
 <h4>Method</h4>
 <ol style="list-style-type: decimal">
-<li>downsample dataset maybe all of the cells from 2 given clusters<br />
+<li>downsample dataset<br />
+maybe all of the cells from 2 given clusters<br />
 </li>
 <li>calculate coverage, transcriptome wide<br />
 (bedtools?)<br />
 </li>
-<li>select gene panel of interest start with EGFR and Actin, maybe</li>
+<li>select gene panel of interest<br />
+start with EGFR and Actin, maybe<br />
+</li>
 <li>normalize expression/coverage across all samples, for GOI<br />
 (FPKM?)<br />
 </li>
 <li>plot number mutations v. normalized expression<br />
-grab mutation info from makeGeneCounts_parallel.py output<br />
-(s3://darmanis-group/singlecell_lungadeno/non_immune/analysis/geneCellMutationCounts.csv)</li>
+grab mutation info from <code>makeGeneCounts_parallel.py</code> output<br />
+(<em>s3://darmanis-group/singlecell_lungadeno/non_immune/analysis/geneCellMutationCounts.csv</em>)</li>
 </ol>
 </div>
 </div>
