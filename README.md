@@ -10,7 +10,8 @@ of mutations and expression/coverage, something good will come of it.
 1. downsample dataset      
     maybe all of the cells from 2 given clusters    	  	
 2. calculate coverage, transcriptome wide    				
-      (bedtools?)     			
+      (bedtools?)       
+      how much of this info do we **already** have, in vcf files?  
 3. select gene panel of interest   
       start with EGFR and Actin, maybe     
 4. normalize expression/coverage across all samples, for GOI  	    
